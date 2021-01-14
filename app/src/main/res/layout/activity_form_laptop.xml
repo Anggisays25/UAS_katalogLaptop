@@ -70,6 +70,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Simpan"
-        app:backgroundTint="#FF3D00" />
+        app:backgroundTint="#00C3FF" />
 
 </LinearLayout>

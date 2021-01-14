@@ -51,13 +51,13 @@ public class DaftarLaptopAdapter extends ArrayAdapter<Laptop> {
         if (tr.getBrand().equals(Laptop.APPLE)) {
             viewHolder.txBrand.setText("APPLE");
         } else if (tr.getBrand().equals(Laptop.ACCER)) {
-            viewHolder.txBrand.setText("SAMSUNG");
+            viewHolder.txBrand.setText("ACCER");
         } else if (tr.getBrand().equals(Laptop.ASUS)) {
-            viewHolder.txBrand.setText("VIVO");
+            viewHolder.txBrand.setText("ASUS");
         } else if (tr.getBrand().equals(Laptop.LENOVO)) {
-            viewHolder.txBrand.setText("OPPO");
+            viewHolder.txBrand.setText("LENOVO");
         } else if (tr.getBrand().equals(Laptop.ROG)) {
-            viewHolder.txBrand.setText("XIOMI");
+            viewHolder.txBrand.setText("ROG");
         } else {
             viewHolder.txBrand.setText("UMUM");
         }
